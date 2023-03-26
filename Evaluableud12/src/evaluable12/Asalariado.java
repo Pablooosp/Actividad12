@@ -6,12 +6,12 @@ public class Asalariado {
     private long dni;
     private int diasVacaciones;
     
-    public Asalariado(String nombre, long dni, int diasVacaciones) {
+    public Asalariado(String nombre, long dni, int diasVacaciones) { //Constructor
         this.nombre = nombre;
         this.dni = dni;
         this.diasVacaciones = diasVacaciones;
     }
-    
+    //Getters and Setters
     public String getNombre() {
         return nombre;
     }
